@@ -575,7 +575,7 @@ textarea {
 		
 /* ========================= Contact ========================= */
 
-#contact { margin:30px 0px 60px; }
+#contact { margin:30px 0px 60px; padding-top: 75px; }
 	#contact form { margin:2px 0px 0px; }
 		#contact form input[type="text"], #contact form textarea {
 			width:100%;
