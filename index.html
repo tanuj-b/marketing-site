@@ -1,239 +1,289 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
 <head>
-<title>PrepSquare</title>
-<meta name="viewport" content="width=320,user-scalable=no" />
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<script src="app/js/lib/jquery-1.8.3.js"></script>
-
-<link rel="stylesheet" href="app/css/bootstrap.min.css">
-<link rel="stylesheet" href="app/css/bootstrap-responsive.min.css">
-<link rel="stylesheet" href="app/css/extras.css" >
-<link rel="stylesheet" href="app/css/style.css" >
-<link rel="stylesheet" href="app/css/bselect.css" >
-
- 
-<script src="js/lib/bootstrap.min.js"></script>
-<!-- The Scripts -->
-
-<script src="app/js/lib/FacebookUser.js"></script>
-<script src="app/js/lib/analytics.js"></script>
-
-<script src="app/js/auth/facebook.js"></script>
-<script src="app/js/auth/google.js"></script>
-
-<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
-typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,
-e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
-mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script><!-- end Mixpanel -->
+	<!-- Your Basic Site Informations -->
+	<title>PrepSquare</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="description" content="PrepSquare is the best preparation tool for IIT JEE 2013. We get you the best content from the best teachers." />
+    <meta name="keywords" content="Landing Page, Business, Contact Form, Portofolio, HTML, CSS, jQuery, Clean, Responsive, Marketing" />
+    <!-- <meta name="author" content="Dots Theme" /> -->
+    
+    <!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/layout-red.css">
+    <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    <noscript><link rel="stylesheet" href="css/no-js.css"></noscript>
+    
+    <!-- Favicons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type='text/javascript' src='js/bootstrap.min.js'></script>
+    <script type="text/javascript" src="js/jquery-easing.js"></script>
+    <script type='text/javascript' src='js/jquery.placeholder.min.js'></script>
+    <script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
+    <script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
+    <script type='text/javascript' src='js/jquery.hoverdir.js'></script>
+    <script type='text/javascript' src='js/modernizr.custom.js'></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
 </head>
-<body>
-  <div id="fb-root"></div>
-  <header></header>
-    <div class="alert" style="display:none;" >
-        <button type="button" class="close" data-dismiss="alert">x</button>
-        <p>test</p>
-  </div>
-    <div id="loading" style="display:none;">
-        <img src='img/loading.gif' style="position:absolute;top:50%;left:50%;height:50px;width:50px">
-    </div>
-    <div id="content"><div class="row-fluid banner">
-    <div class="span6">
-        <h1>The best problem sets for JEE Mains & Advanced</h1>
-        <h2>
-            A library of questions and video solutions from India's best
-            teachers
-        </h2>
-        <br> <br> <a class="btn btn-large orange-btn pull-right" href="#signup">Get
-            started for FREE</a>
-    </div>
-</div>
-<div class="row-fluid center">
-    <h2>What people are saying about PrepSquare</h2>
-</div>
-<div class="row-fluid">
-    <div class="span12">
-        <div id="myCarousel" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span6">
-                                <div class="content-left">
-                                    <div class="media">
-                                        <a class="pull-left" href="#"> <img
-                                            src="app/img/testimonial1.jpg" class="media-object"
-                                            data-src="holder.js/64x64" alt="64x64"
-                                            style="height: 130px;">
-                                        </a>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">
-                                                Amitabh Saraswati<br>AIR 19 JEE '11
-                                            </h3>
-                                            <p>For the JEE, it is important to perfect your
-                                                strategy before the exam. PrepSquare has one of the best tracking solutions available. Its a must for everyone who's preparing</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="content-right">
-                                    <div class="media">
-                                        <a class="pull-left" href="#"> <img
-                                            src="app/img/testimonial2.jpg" class="media-object"
-                                            data-src="holder.js/64x64" alt="64x64"
-                                            style=" height: 130px;">
-                                        </a>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">
-                                                Aditya S<br>AIR 452 JEE '06
-                                            </h3>
-                                            <p>JEE is not about solving a lot of questions, its about practicing the right questions that clear your concepts. PrepSquare has an excellent question bank. If you are a serious aspirant, these questions should be at your finger tips.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span6">
-                                <div class="content-left">
-                                    <div class="media">
-                                        <a class="pull-left" href="#"> <img
-                                            src="app/resources/accounts/2.jpg" class="media-object"
-                                            data-src="holder.js/64x64" alt="64x64"
-                                            style="width: 110px; height: 130px;">
-                                        </a>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">Ashwin M<br>IIT Madras '10, Faculty</h3>
-                                            <p>PrepSquare is by far the best preparation product in the JEE space. We were really impressed with their features and hence decided to partner with them.  </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="content-right">
-                                    <div class="media">
-                                        <a class="pull-left" href="#"> <img
-                                            src="app/resources/accounts/6.jpg" class="media-object"
-                                            data-src="holder.js/64x64" alt="64x64"
-                                            style=" height: 130px;">
-                                        </a>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">Anirban Naskar<br>IIT Delhi '10, Faculty</h3>
-                                            <p>We tried the PrepSquare with our students and we're really impressed with the development that they have shown. There is no website that comes closer and students love it.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span6">
-                                <div class="content-left">
-                                    <div class="media">
-                                        <a class="pull-left" href="#"> <img
-                                            src="app/img/testimonial5.jpg" class="media-object"
-                                            data-src="holder.js/64x64" alt="64x64"
-                                            style=" height: 130px;">
-                                        </a>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">Rohit Gulati<br>11th Standard, Student</h3>
-                                            <p>I'm a huge fan of PrepSquare and its become a part of my daily IIT JEE preparation. Thank you for creating such an amazing website.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="span6">
-                                <div class="content-right">
-                                    <div class="media">
-                                        <a class="pull-left" href="#"> <img
-                                            src="app/img/testimonial6.jpg" class="media-object"
-                                            data-src="holder.js/64x64" alt="64x64"
-                                            style="height: 130px;">
-                                        </a>
-                                        <div class="media-body">
-                                            <h3 class="media-heading">Rohan Yadav<br>12th Standard, Student</h3>
-                                            <p>I got to learn from so many different teachers. It was a great experience. There were topics I had less clarity on. But learning from experts did the trick</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control left" href="#myCarousel" data-slide="prev"> <i
-                class="icon-chevron-left arrow icon-white"></i>
-            </a> <a class="carousel-control right" href="#myCarousel" data-slide="next"> <i
-                class="icon-chevron-right arrow icon-white"></i>
-            </a> 
-        </div>
-    </div>
-</div>
-<div class="features">
-    <!--1-->
-    <div class="row-fluid feature-row">
-        <div class="span6">
-            <img src="app/img/best_teacher.jpg">
-        </div>
-        <div class="span6">
-            <h2 class="blue">Learn from the Best Teachers</h2>
-            <ol>
-                <li>PrepSquare partners with the best teachers in each subject.</li>
-                <li>Our problem sets are designed by these teachers to help you understand and
-                    master concepts</li>
-                <li>Each problem has a video solution</li>
-            </ol>
-            <a href="#learn/faculty">Learn More about our faculty</a>
-        </div>
-    </div>
 
-    <!--2-->
-    <div class="row-fluid feature-row">
-        <div class="span6">
-            <h2 class="blue">Get Personalized Feedback</h2>
-            <ol>
-                <li>Helps you understand your weak and strong areas</li>
-                <li>Intelligent recommendations so you can get the most out of your preparation</li>
-                <li>Direct action points for you to maximize your performance</li>
-            </ol>
-            <a href="#learn/feedback">Learn More about our algorithms</a>
-        </div>
-        <div class="span6 ">
-            <img src="app/img/personalized.png">
-        </div>
-    </div>
+<body data-spy="scroll" data-offset="80">
 
-    <!--3-->
-    <div class="row-fluid feature-row">
-        <div class="span6 ">
-            <img src="app/img/power_choice.jpg">
-        </div>
-        <div class="span6">
-            <h2 class="blue">Get the Power of Choice</h2>
-            <ol>
-                <li>Rather than a fixed question bank, you can choose what topic you want to
-                    study and what teacher you want to study from</li>
-                <li>Each problem set is rated by popularity, difficulty and concepts tested</li>
-            </ol>
-        </div>
-        <a href="#learn/choice">Learn More about our problem sets</a>
-    </div>
-</div>
+ <div id="header">
+  <div class="container">
+   <div class="row-fluid">
+   
+    <div class="logo">
+     <a href="index.html"><img src="images/logo.png" alt="PrepSquare" /></a>
+    </div> <!-- End Logo -->
+    
+    <nav class="nav menu-nav">
+     <ul>
+      <li><a href="#slider">How it Works</a></li>
+      <li><a href="#features">Library</a></li>
+      <li><a href="#howto">Faculty</a></li>
+      <li><a href="#main-tabs">Purchase</a></li>
+      <li><a href="#contact">Sign Up</a></li>
+     </ul>
+    </nav> <!-- End Menu-Nav -->
+   
+   </div> <!-- End Row-Fluid -->
+  </div> <!-- End Container -->
+ </div> <!-- End Header -->
+ <div id="slider">
+  <div class="container">
+   <div class="row-fluid">
+   
+    <div class="span1 slider-images flexslider loading">
+     <ul class="slides">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+     </ul>
+    </div> <!-- End Slider-Images -->
+    
+    <div class="span5 content">
+     <h3>Your perfect revision tool</h3>
+     <h4>For JEE 2013 : Mains & Advanced</h4>
+     <p>Access our library of questions & their video solutions by India's best teachers</p>
+     <div class="flexslider">
+      <ul class="slides">
+       <li class="flex-active-slide"><a href="#features" onclick="clickSmoothScroll('#features')"><i class="icon-edit icon-white"></i>Browse our Library of Tests</a></li>
+       <li class="flex-active-slide"><a href="#" onclick="clickFollow('http://www.google.com/')"><i class="icon-lock icon-white"></i>Get Preparation Tips on Our Blog</a></li>
+       <li class="flex-active-slide"><a href="#"><i class="icon-inbox icon-white"></i>Read What Others Have To Say</a></li>
+       <li class="flex-active-slide"><a href="#"><i class="icon-calendar icon-white"></i> Sign Up For PrepSquare</a></li>
+      </ul>
+     </div>
+     <script type="text/javascript">
+     function clickFollow(target)
+     {  
+      window.open(target,"_self");
+     }
+      function clickSmoothScroll(target){
+      var $anchor = $(this);    
+      $('html, body').stop().animate({
+        scrollTop: parseInt($(target).offset().top) - 100
+      }, 2000,'easeInOutExpo');
+      event.preventDefault();
+    }
+     </script>
+    </div> <!-- End Content -->
+   </div> <!-- End Row-Fluid -->
+  </div> <!-- End Container -->
+ </div> <!-- End Slider -->
+ 
+ 
+ <!-- Buy Now Button
+    <div class="span3 button">
+     <a href="#" class="btn"><i class="icon-white icon-shopping-cart"></i> Buy Now</a>
+    </div> -->
 
-<div class="row-fluid btn-div">
-    <a class="btn btn-large orange-btn" href="#signup">Try your first few problem sets for FREE</a>
-</div></div>
-    <footer class="footer"></footer>
+ <div id="features">
+  <div class="container">
+  
+   <div class="sep-border"></div> <!-- Separator -->
+  
+   <div class="header">
+    <h3>Features</h3>
+    <p>Learn what makes PrepSquare the right choice for your needs</p>
+   </div>
+   
+   <div class="row-fluid">
+    <div class="span4 item clearfix"> <!-- Two -->
+     <img src="images/features/dollar_currency_sign.png" alt="Feature" />
+     <div class="content">
+      <h4>Best Faculty</h4>
+      <p>Almost all of PrepSquare's teachers are IITians with years of experience in JEE coaching and loved by hundreds of students.<br /><br />Sign-up to see the difference that learning from a high-quality teacher makes.</p>
+     </div>
+    </div>
+    <div class="span4 item clearfix"> <!-- One -->
+     <img src="images/features/database.png" alt="Feature" />
+     <div class="content">
+      <h4>Hand-Picked Tests</h4>
+      <p>Our tests have been carefully designed by our faculty to cover each topic extensively. Don't waste valuable prep time on attempting every possible question<br /><br />Let our faculty and their experience pick the right questions for you!</p>
+     </div>
+    </div>
+    <div class="span4 item clearfix"> <!-- Three -->
+     <img src="images/features/page.png" alt="Feature" />
+     <div class="content">
+      <h4>Personalised Feedback</h4>
+      <p>PrepSquare provides great feedback on your performance, allowing you to identify your strong & weak areas.<br /><br />Based on your history, PrepSquare's advanced algorithms make recommendations on which test you should solve next.</p>
+     </div>
+    </div>
+   </div> <!-- End Row-Fluid -->
+   
+  </div> <!-- End Container -->
+ </div> <!-- End Features -->
+ 
+ <div id="howto">
+  <div class="container">
+   
+   <div class="sep-border"></div> <!-- Separator -->
+  
+   <div class="header">
+    <h3>How It Works</h3>
+    <p>Dragness provides your complete web hosting solution. You can setup with follow this steps!</p>
+   </div>
+   
+   <div class="row-fluid steps">
+    <div class="span4 step"> <!-- One -->
+     <div class="step-number">
+      <div class="number">1</div>
+     </div>
+     <div class="content">
+      <h4>Register & Buy Now</h4>
+      <img src="images/howtos/1.png" alt="Step 1" />
+      <p>Suspendisse ornare luctus tempus. Nulla nec orci erat, sed consequat lacus. Curabitur vel odio eu sapien fermentum placerat pharetra ac lectus.</p>
+     </div>
+    </div>
+    <div class="span4 step"> <!-- Two -->
+     <div class="step-number">
+      <div class="number">2</div>
+     </div>
+     <div class="content">
+      <h4>Choose Hosting & Domain</h4>
+      <img src="images/howtos/2.png" alt="Step 2" />
+      <p>Quisque placerat erat ac nunc consequat faucibus. Aenean tortor purus, faucibus a varius nec, facilisis vel enim. Maecenas quis felis ante.</p>
+     </div>
+    </div>
+    <div class="span4 step"> <!-- Three -->
+     <div class="step-number">
+      <div class="number">3</div>
+     </div>
+     <div class="content">
+      <h4>Setup Your Website</h4>
+      <img src="images/howtos/3.png" alt="Step 3" />
+      <p>Sed tristique rhoncus dolor a porta. Nunc suscipit condimentum ultrices. Fusce non arcu urna. Duis iaculis tellus id felis fringilla commodo.</p>
+     </div>
+    </div>
+   </div> <!-- End Row-Fluid -->
+   
+  </div> <!-- End Container -->
+ </div> <!-- End HowTo -->
+ 
+ <div id="main-tabs">
+  <div class="container">
+  
+   <ul class="tabs">
+    <li class="active last-element"><a href="#testimonials" data-toggle="tab">Testimonials</a></li>
+   </ul> <!-- End Nav-Tabs -->
+  
+   <div class="tab-content">
+     
+    <div class="tab-pane testimonials active" id="testimonials">
+     <div class="row-fluid">
+      <div class="span4 item"> <!-- One -->
+       <img src="images/testimonials/1.png" alt="Avatar 1" />
+       <div class="arrow"></div>
+       <div class="text">It is important to prioritise your preparation, stick to your plan and focus on solving high quality questions in the last phase of study</div>
+       <div class="name"><strong>Amitabh Saraswati</strong>, Rank 19 JEE ‘11</div>
+      </div>
+      <div class="span4 item"> <!-- Two -->
+       <img src="images/testimonials/2.png" alt="Avatar 2" />
+       <div class="arrow"></div>
+       <div class="text">PrepSquare  helps students figure out  how to improve their exam strategy – a must for every student preparing for JEE!</div>
+       <div class="name"><strong>Gaurav Talwar</strong>, IIT Delhi, Maths Faculty in Kota</div>
+      </div>
+      <div class="span4 item"> <!-- Three -->
+       <img src="images/testimonials/3.png" alt="Avatar 3" />
+       <div class="arrow"></div>
+       <div class="text">I am more confident solving questions now after using PrepSquare – the concepts are explained very well on video</div>
+       <div class="name"><strong>Ritwik Kinra</strong>, Class 11, Delhi</div>
+      </div>
+     </div> <!-- End Row-Fluid -->
+    </div> <!-- End Testimonials -->
+    
+   </div> <!-- End Tab-Content -->
+  </div> <!-- End Container -->
+ </div> <!-- End Main-Tabs -->
+ 
+ 
+ <div id="buynow">
+  <div class="container">
+   <h1>Are you ready to boost your Preparation with PrepSquare?</h1>
+   <p>Sign up now and take our free tests!</p>
+   <a href="#" class="btn"><i class="icon-white icon-shopping-cart"></i> Sign Up</a>
+  </div> <!-- End Container -->
+ </div> <!-- End BuyNow -->
+ 
+ <div id="clients">
+  <div class="container">
+  
+   <div class="row-fluid">
+    <div class="span2"><img src="images/clients/1.png" alt="Logo" /></div>
+    <div class="span2"><img src="images/clients/2.png" alt="Logo" /></div>
+    <div class="span2"><img src="images/clients/3.png" alt="Logo" /></div>
+    <div class="span2"><img src="images/clients/4.png" alt="Logo" /></div>
+    <div class="span2"><img src="images/clients/5.png" alt="Logo" /></div>
+    <div class="span2"><img src="images/clients/6.png" alt="Logo" /></div>
+   </div> <!-- End Row-Fluid -->
+   
+  </div> <!-- End Container -->
+ </div> <!-- End Clients -->
+ 
+ <div id="footer">
+  <div class="container">
+  
+   <div class="copyright">Copyright &copy; 2013 Apeirogon Ventures. All rights reserved.</div>
+   
+   <div class="social">
+    <ul>
+     <li><a href="http://linkedin.com" title="LinkedIn"><img src="images/social/linkedin.png" alt="LinkedIn" /></a></li>
+     <li><a href="http://facebook.com" title="Facebook"><img src="images/social/facebook.png" alt="Facebook" /></a></li>
+     <li><a href="http://twitter.com" title="Twitter"><img src="images/social/twitter.png" alt="Twitter" /></a></li>
+    </ul>
+   </div>
+   
+  </div> <!-- End Container -->
+ </div> <!-- End Footer -->
+ 
+ <a href="#" class="scrollup" title="Back to Top!">Scroll</a>
+
 </body>
-
 </html>
