@@ -49,7 +49,19 @@
     <script type='text/javascript' src='js/jquery.hoverdir.js'></script>
     <script type='text/javascript' src='js/modernizr.custom.js'></script>
     <script type="text/javascript" src="js/main.js"></script>
-    
+    <script type="text/javascript">
+     function clickFollow(target)
+     {  
+      window.open(target,"_self");
+     }
+      function clickSmoothScroll(target){
+      var $anchor = $(this);    
+      $('html, body').stop().animate({
+        scrollTop: parseInt($(target).offset().top) - 100
+      }, 2000,'easeInOutExpo');
+      event.preventDefault();
+    }
+     </script>
 </head>
 
 <body data-spy="scroll" data-offset="80">
@@ -64,11 +76,11 @@
     
     <nav class="nav menu-nav">
      <ul>
-      <li><a href="#slider">How it Works</a></li>
-      <li><a href="#features">Library</a></li>
-      <li><a href="#howto">Faculty</a></li>
-      <li><a href="#main-tabs">Purchase</a></li>
-      <li><a href="#contact">Sign Up</a></li>
+      <li><a href="/#howto">How it Works</a></li>
+      <li><a href="/app/#library">Library</a></li>
+      <li><a href="/app/#facs">Faculty</a></li>
+      <li><a href="/app/#signup">Purchase</a></li>
+      <li><a href="/app/#signup">Sign Up</a></li>
      </ul>
     </nav> <!-- End Menu-Nav -->
    
