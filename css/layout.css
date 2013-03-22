@@ -278,16 +278,19 @@ textarea {
 		
 	#slider .content { color:#8E8E8E; } /* ::tb:: color of text on photo*/
 		#slider .content h3 {
-			font-size:26px;
+			font-size:30px;
 			line-height:34px;
 			color:#ed6a45; /* ::tb:: Content on photo h3 color*/
 			margin:0px;
 			text-transform:uppercase;
 		}
 		#slider .content h4 {
-			font-size:16px;
+			font-size:18px;
 			color:#ed6a45; /* ::tb:: Content on photo h3 color*/
 			margin:5px 0px 20px;	
+		}
+		#slider .content p {
+			font-size:16px;
 		}
 		#slider .content .flex-viewport {
 			height:auto !important;

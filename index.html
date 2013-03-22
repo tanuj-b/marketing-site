@@ -59,7 +59,7 @@
    <div class="row-fluid">
    
     <div class="logo">
-     <a href="index.html"><img src="images/logo.png" alt="PrepSquare" /></a>
+     <a href="/"><img src="images/logo.png" alt="PrepSquare" /></a>
     </div> <!-- End Logo -->
     
     <nav class="nav menu-nav">
@@ -67,7 +67,7 @@
       <li><a href="#howto">How it Works</a></li>
       <li><a href="/app/#library">Library</a></li>
       <li><a href="/app/#facs">Faculty</a></li>
-      <li><a href="/app/#signup">Purchase</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
       <li><a href="/app/#signup">Sign Up</a></li>
      </ul>
     </nav> <!-- End Menu-Nav -->
@@ -80,39 +80,36 @@
    <div class="row-fluid">
    
     <div class="span1 slider-images flexslider loading">
-     <ul class="slides">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-     </ul>
     </div> <!-- End Slider-Images -->
     
     <div class="span5 content">
      <h3>Your perfect revision tool</h3>
      <h4>For JEE 2013 : Mains & Advanced</h4>
      <p>Access our library of questions & their video solutions by India's best teachers</p>
-     <div class="flexslider">
-      <ul class="slides">
-       <li class="flex-active-slide"><a href="/app/#library" onclick="clickFollow('/app/#library')"><i class="icon-edit icon-white"></i>Browse our Library of Tests</a></li>
-       <li class="flex-active-slide"><a href="http://blog.prepsquare.com/" onclick="clickFollow('http://blog.prepsquare.com/')"><i class="icon-lock icon-white"></i>Get Preparation Tips on Our Blog</a></li>
-       <li class="flex-active-slide"><a href="#main-tabs" onclick='clickSmoothScroll("#main-tabs")'><i class="icon-inbox icon-white"></i>Read What Others Have To Say</a></li>
-       <li class="flex-active-slide"><a href="/app/#signup" onclick="clickFollow('/app/#signup')"><i class="icon-calendar icon-white"></i> Sign Up For PrepSquare</a></li>
-      </ul>
-     </div>
+  
+       <div class="flexslider">
+        <ul class="slides">
+         <li class="flex-active-slide"><a href="http://blog.prepsquare.com/" onclick="clickFollow('http://blog.prepsquare.com/')"><i class="icon-pencil icon-white"></i>Get Preparation Tips on Our Blog</a></li>
+        </ul>
+       </div><br /><br /><br /><br />
+      <div class="button">
+        <a href="#" class="btn"><i class="icon-white icon-shopping-cart"></i>Sign Up to get 3 Free Tests</a>
+      </div>
+
      <script type="text/javascript">
-     function clickFollow(target)
-     {  
-      window.open(target,"_self");
-     }
-      function clickSmoothScroll(target){
-      var $anchor = $(this);    
-      $('html, body').stop().animate({
-        scrollTop: parseInt($(target).offset().top) - 100
-      }, 2000,'easeInOutExpo');
-      event.preventDefault();
-    }
+         function clickFollow(target)
+         {  
+          window.open(target,"_self");
+         }
+          function clickSmoothScroll(target){
+          var $anchor = $(this);    
+          $('html, body').stop().animate({
+            scrollTop: parseInt($(target).offset().top) - 100
+          }, 2000,'easeInOutExpo');
+          event.preventDefault();
+        }
      </script>
+     
     </div> <!-- End Content -->
    </div> <!-- End Row-Fluid -->
   </div> <!-- End Container -->
@@ -136,21 +133,21 @@
    
    <div class="row-fluid">
     <div class="span4 item clearfix"> <!-- Two -->
-     <img src="images/features/dollar_currency_sign.png" alt="Feature" />
+     <img src="images/features/users.png" alt="Feature" />
      <div class="content">
       <h4>Best Faculty</h4>
       <p>Almost all of PrepSquare's teachers are IITians with years of experience in JEE coaching and loved by hundreds of students.<br /><br />Sign-up to see the difference that learning from a high-quality teacher makes.</p>
      </div>
     </div>
     <div class="span4 item clearfix"> <!-- One -->
-     <img src="images/features/database.png" alt="Feature" />
+     <img src="images/features/page.png" alt="Feature" />
      <div class="content">
       <h4>Hand-Picked Tests</h4>
       <p>Our tests have been carefully designed by our faculty to cover each topic extensively. Don't waste valuable prep time on attempting every possible question<br /><br />Let our faculty and their experience pick the right questions for you!</p>
      </div>
     </div>
     <div class="span4 item clearfix"> <!-- Three -->
-     <img src="images/features/page.png" alt="Feature" />
+     <img src="images/features/chart.png" alt="Feature" />
      <div class="content">
       <h4>Personalised Feedback</h4>
       <p>PrepSquare provides great feedback on your performance, allowing you to identify your strong & weak areas.<br /><br />Based on your history, PrepSquare's advanced algorithms make recommendations on which test you should solve next.</p>
@@ -248,7 +245,7 @@
   <div class="container">
    <h1>Are you ready to boost your Preparation with PrepSquare?</h1>
    <p>Sign up now and take our free tests!</p>
-   <a href="#" class="btn"><i class="icon-white icon-shopping-cart"></i> Sign Up</a>
+   <a href="#" class="btn"><i class="icon-white icon-shopping-cart"></i> Sign Up to get 3 Free Tests</a>
   </div> <!-- End Container -->
  </div> <!-- End BuyNow -->
  
