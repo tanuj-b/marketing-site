@@ -102,8 +102,8 @@ else{?>
     
     <div class="span5 content">
      <h3>Your perfect revision tool</h3>
-     <h4>For JEE 2013 : Mains & Advanced</h4>
-     <p>Access our library of questions & their video solutions by India's best teachers</p>
+     <h4>For JEE 2013: Mains & Advanced</h4>
+     <p>Access our library of tests & their video solutions by India's best teachers</p>
   
        <div class="flexslider">
         <ul class="slides">
@@ -160,7 +160,7 @@ else{?>
     <div class="span4 item clearfix"> <!-- One -->
      <img src="images/features/page.png" alt="Feature" />
      <div class="content">
-      <h4>Hand-Picked Tests</h4>
+      <h4>Hand-Picked Questions</h4>
       <p>Our tests have been carefully designed by our faculty to cover each topic extensively. Don't waste valuable prep time on attempting every possible question.<br /><br />Let our faculty and their experience pick the right questions for you!</p>
      </div>
     </div>
@@ -204,7 +204,7 @@ else{?>
      <div class="content">
       <h4>Take A Test</h4>
       <img src="images/howtos/2.png" alt="Step 2" />
-      <p>Browse the library and select a test you want to take. Attempt it as a Timed Test or Practice.</p>
+      <p>Browse the library and select a question paper you want to take. Attempt it as a Timed Test or Practice.</p>
      </div>
     </div>
     <div class="span4 step"> <!-- Three -->
