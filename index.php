@@ -271,12 +271,19 @@ else{?>
   <div class="container">
   
    <div class="row-fluid">
-    <div class="span2"><a href='http://www.nextbigwhat.com/tlabs-third-batch-startups-297/'><img src="images/clients/NextBigWhat-logo.png" alt="PrepSquare on NextBigWhat" /></a></div>
+    <!--  <div class="span2"><a href='http://www.nextbigwhat.com/tlabs-third-batch-startups-297/'><img src="images/clients/NextBigWhat-logo.png" alt="PrepSquare on NextBigWhat" /></a></div>
     <div class="span2"><a href='http://yourstory.in/2013/03/tlabs-announces-new-startups-for-batch-8/'><img src="images/clients/yslogo.png" alt="PrepSquare on YourStory.in" /></a></div>
     <div class="span2"><a href='http://www.indiadigitalreview.com/news/tlabs-introduces-7-start-ups-its-3rd-accelerator-batch'><img src="images/clients/india_digital_review.png" alt="PrepSquare on India Digital Review" /></a></div>
     <div class="span2"><a href='http://techcircle.vccircle.com/2013/03/15/meet-the-7-startups-picked-for-tlabs-3rd-accelerator-batch/'><img src='images/clients/techcircle.png' alt="PrepSquare on techcircle" /></a></div>
     <div class="span2"><br><br><p>Backed By :</p><br><br></div>
     <div class="span2"><a href='http://www.tlabs.in/'><img src="images/clients/tlabs.png" alt="Logo" /></a></div>
+  -->
+    <div class="span2"><img src="images/clients/NextBigWhat-logo.png" alt="PrepSquare on NextBigWhat" /></div>
+    <div class="span2"><img src="images/clients/yslogo.png" alt="PrepSquare on YourStory.in" /></div>
+    <div class="span2"><img src="images/clients/india_digital_review.png" alt="PrepSquare on India Digital Review" /></div>
+    <div class="span2"><img src='images/clients/techcircle.png' alt="PrepSquare on techcircle" /></div>
+    <div class="span2"><br><br><p>Backed By :</p><br><br></div>
+    <div class="span2"><img src="images/clients/tlabs.png" alt="Logo" /></div>
    </div> <!-- End Row-Fluid -->
    
   </div> <!-- End Container -->
