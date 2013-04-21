@@ -68,6 +68,12 @@ else{?>
   })();
 
 </script>
+
+<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,
+e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script>
+
 </head>
 
 <body data-spy="scroll" data-offset="80">
@@ -270,12 +276,19 @@ else{?>
   <div class="container">
   
    <div class="row-fluid">
-    <div class="span2"><a href='http://www.nextbigwhat.com/tlabs-third-batch-startups-297/'><img src="images/clients/NextBigWhat-logo.png" alt="PrepSquare on NextBigWhat" /></a></div>
+    <!--  <div class="span2"><a href='http://www.nextbigwhat.com/tlabs-third-batch-startups-297/'><img src="images/clients/NextBigWhat-logo.png" alt="PrepSquare on NextBigWhat" /></a></div>
     <div class="span2"><a href='http://yourstory.in/2013/03/tlabs-announces-new-startups-for-batch-8/'><img src="images/clients/yslogo.png" alt="PrepSquare on YourStory.in" /></a></div>
     <div class="span2"><a href='http://www.indiadigitalreview.com/news/tlabs-introduces-7-start-ups-its-3rd-accelerator-batch'><img src="images/clients/india_digital_review.png" alt="PrepSquare on India Digital Review" /></a></div>
     <div class="span2"><a href='http://techcircle.vccircle.com/2013/03/15/meet-the-7-startups-picked-for-tlabs-3rd-accelerator-batch/'><img src='images/clients/techcircle.png' alt="PrepSquare on techcircle" /></a></div>
     <div class="span2"><br><br><p>Backed By :</p><br><br></div>
     <div class="span2"><a href='http://www.tlabs.in/'><img src="images/clients/tlabs.png" alt="Logo" /></a></div>
+  -->
+    <div class="span2"><img src="images/clients/NextBigWhat-logo.png" alt="PrepSquare on NextBigWhat" /></div>
+    <div class="span2"><img src="images/clients/yslogo.png" alt="PrepSquare on YourStory.in" /></div>
+    <div class="span2"><img src="images/clients/india_digital_review.png" alt="PrepSquare on India Digital Review" /></div>
+    <div class="span2"><img src='images/clients/techcircle.png' alt="PrepSquare on techcircle" /></div>
+    <div class="span2"><br><br><p>Backed By :</p><br><br></div>
+    <div class="span2"><img src="images/clients/tlabs.png" alt="Logo" /></div>
    </div> <!-- End Row-Fluid -->
    
   </div> <!-- End Container -->
