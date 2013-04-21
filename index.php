@@ -209,7 +209,7 @@ mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script>
      <div class="content">
       <h4>Take A Test</h4>
       <img src="images/howtos/2.png" alt="Step 2" />
-      <p>Browse the library and select a question paper you want to take. Attempt it as a Timed Test or Practice.</p>
+      <p>Browse the library and select a question paper. Attempt it as a Timed Test or Practice.</p>
      </div>
     </div>
     <div class="span4 step"> <!-- Three -->
