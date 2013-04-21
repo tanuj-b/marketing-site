@@ -107,11 +107,11 @@ else{?>
   
        <div class="flexslider">
         <ul class="slides">
-         <li class="flex-active-slide"><a href="http://blog.prepsquare.com/" target="_blank"><i class="icon-pencil icon-white"></i>Get Preparation Tips on Our Blog</a></li>
+         <!--<li class="flex-active-slide"><a href="http://blog.prepsquare.com/" target="_blank"><i class="icon-pencil icon-white"></i>Get Preparation Tips on Our Blog</a></li>-->
         </ul>
        </div><br /><br /><br /><br />
       <div class="button">
-        <a href="/app/#signup" class="btn"><i class="icon-white icon-shopping-cart"></i>Sign Up to get 3 Free Tests</a>
+        <a href="/app/#signup" class="btn"><i class="icon-white icon-shopping-cart"></i>Get 3 Free Tests Now</a>
       </div>
 
      <script type="text/javascript">
@@ -146,7 +146,6 @@ else{?>
   
    <div class="header">
     <h3>Features</h3>
-    <p>Learn what makes PrepSquare the right choice for your needs</p>
    </div>
    
    <div class="row-fluid">
@@ -154,21 +153,21 @@ else{?>
      <img src="images/features/users.png" alt="Feature" />
      <div class="content">
       <h4>Best Faculty</h4>
-      <p>Almost all of PrepSquare's teachers are IITians with years of experience in JEE coaching and loved by hundreds of students.<br /><br />Sign-up to see the difference that learning from a high-quality teacher makes.</p>
+      <p>PrepSquare's teachers are IITians with years of experience in JEE coaching and loved by hundreds of students.Sign-up to see the difference that learning from a high-quality teacher makes.</p>
      </div>
     </div>
     <div class="span4 item clearfix"> <!-- One -->
      <img src="images/features/page.png" alt="Feature" />
      <div class="content">
       <h4>Hand-Picked Questions</h4>
-      <p>Our tests have been carefully designed by our faculty to cover each topic extensively. Don't waste valuable prep time on attempting every possible question.<br /><br />Let our faculty and their experience pick the right questions for you!</p>
+      <p>Carefully designed by our faculty to cover each topic extensively. Don't waste time attempting every possible question. Let our faculty's experience pick the right questions for you!</p>
      </div>
     </div>
     <div class="span4 item clearfix"> <!-- Three -->
      <img src="images/features/chart.png" alt="Feature" />
      <div class="content">
       <h4>Personalised Feedback</h4>
-      <p>PrepSquare provides great feedback on your performance, allowing you to identify your strong & weak areas.<br /><br />Based on your history, PrepSquare's advanced algorithms make recommendations on which test you should solve next.</p>
+      <p>Get great feedback on your performance, identify your strong & weak areas. Based on your history, PrepSquare's advanced algorithms make recommendations on which test you should solve next.</p>
      </div>
     </div>
    </div> <!-- End Row-Fluid -->
@@ -263,7 +262,7 @@ else{?>
   <div class="container">
    <h1>Are you ready to boost your Preparation with PrepSquare?</h1>
    <p>Sign up now and take our free tests!</p>
-   <a href="/app/#signup" class="btn"><i class="icon-white icon-shopping-cart"></i> Sign Up to get 3 Free Tests</a>
+   <a href="/app/#signup" class="btn"><i class="icon-white icon-shopping-cart"></i> Get 3 Free Tests Now</a>
   </div> <!-- End Container -->
  </div> <!-- End BuyNow -->
  
