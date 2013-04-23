@@ -113,7 +113,7 @@ mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script>
   
        <div class="flexslider">
         <ul class="slides">
-         <li class="flex-active-slide"><a href="http://blog.prepsquare.com/" target="_blank"><i class="icon-pencil icon-white"></i>Get Preparation Tips on Our Blog</a></li>
+         <li class="flex-active-slide"><a href="/blog" target="_blank"><i class="icon-pencil icon-white"></i>Get Preparation Tips on Our Blog</a></li>
         </ul>
        </div><br /><br /><br /><br />
       <div class="button">
@@ -304,7 +304,7 @@ mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script>
     <ul>
      <li><a href="/about.html" title="About Us">About Us</a></li>
      <li><a href="/legal.html" title="Legal">Legal</a></li>
-     <li><a href="http://blog.prepsquare.com/" target="_blank" title="PrepSquare Blog">Blog</a></li>
+     <li><a href="/blog" target="_blank" title="PrepSquare Blog">Blog</a></li>
     </ul>
    </div>
    
