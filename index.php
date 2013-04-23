@@ -88,7 +88,7 @@ mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script>
     
     <nav class="nav menu-nav">
      <ul>
-      <li><a href="/blog">Blog</a></li>
+      <li><a href="/blog" target="_blank" title="PrepSquare Blog">Blog</a></li>
       <li><a href="#howto">How it Works</a></li>
       <li><a href="/app/#library">Library</a></li>
       <li><a href="/app/#facs">Faculty</a></li>
