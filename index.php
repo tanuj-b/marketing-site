@@ -88,6 +88,7 @@ mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script>
     
     <nav class="nav menu-nav">
      <ul>
+      <li><a href="/blog">Blog</a></li>
       <li><a href="#howto">How it Works</a></li>
       <li><a href="/app/#library">Library</a></li>
       <li><a href="/app/#facs">Faculty</a></li>
@@ -113,7 +114,8 @@ mixpanel.init("e6d69d4799cb01adc1dbdba622308eb5");</script>
   
        <div class="flexslider">
         <ul class="slides">
-         <li class="flex-active-slide"><a href="/blog" target="_blank"><i class="icon-pencil icon-white"></i>Get Preparation Tips on Our Blog</a></li>
+        <!-- <li class="flex-active-slide"><a href="/blog" target="_blank"><i class="icon-pencil icon-white"></i>Get Preparation Tips on Our Blog</a></li>
+        -->
         </ul>
        </div><br /><br /><br /><br />
       <div class="button">
